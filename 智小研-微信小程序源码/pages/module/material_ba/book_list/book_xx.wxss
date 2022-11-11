@@ -1,0 +1,64 @@
+/* pages/module/material_ba/book_list/book_xx.wxss */
+.btn{
+  margin: 5vw auto;
+  width: 19vw;
+	height: 8vw;
+	background-color: #ffe346;
+	border-radius: 4vw;
+  font-size: 3vw;
+  text-align: center;
+  color: #2d2d2d;
+  line-height: 8vw;
+}
+.top_box{
+  padding: 5vw 8vw;
+}
+.top_box .title{
+  font-size: 4vw;
+  color: #2b2b2b;
+}
+.top_box .money{
+  color: #d07100;
+  font-size: 3vw;
+  margin: 3.5vw 0;
+
+}
+.top_box .ms .times{
+display: inline-block;
+  width: 20vw;
+	height: 4vw;
+  line-height: 4vw;
+	font-size: 3vw;
+  overflow: hidden;
+	color: #858585;
+  margin-right: 11vw;
+}
+.top_box .ms image{
+  width: 4vw;
+  height: 4vw;
+}
+.cont_box{
+  padding: 5vw 9vw;
+  border-bottom: 1px solid #bebebe;
+}
+.cont_box .title{
+  	color: #818181;
+    font-size: 4vw;
+    padding-left: 2vw;
+    margin-bottom: 4vw;
+}
+.cont_box view{
+  margin-bottom: 2.2vw;
+  color: #000;
+  font-size: 3vw;
+}
+.cont_box view text{
+  font-size: 3vw;
+
+  letter-spacing: 2rpx;
+  color: #818181;
+  display: inline-block;
+  width: 18vw;
+    text-align: justify;
+        text-align-last: justify;
+}

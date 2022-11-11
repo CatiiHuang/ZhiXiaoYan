@@ -1,0 +1,85 @@
+
+<view class="body">
+  <view class="top_box">
+    <swiper class="swiper" style="height:40vw;" indicator-dots="true"  autoplay="{{f}}"   circular="true">
+      <swiper-item>
+          <view class="djs" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/home/banner1.png')">
+            <view class="djs_box" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/home/djs.png')">
+              {{mb_day}}
+              <text>{{mb_time}}考研倒计时</text>
+            </view>
+            <!-- <view class="jrdk">今日打卡</view> -->
+          </view>
+      </swiper-item>
+      <swiper-item>
+        <image mode="aspectFill" src="https://hgqlgzsl.temdu.com/assets/wx/home/banner01.png"></image>
+      </swiper-item>
+       <swiper-item>
+         <image mode="aspectFill" src="https://hgqlgzsl.temdu.com/assets/wx/home/banner02.png"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="center_box">
+  <!-- 专业·学校 -->
+    <view class="c_title"> <text></text>学校·专业</view>
+    <view class="card">
+      <view class="c_icon" data-url="/pages/module/school_cx/school_list/index" bindtap="go_url">
+        <image src="/images/home/xx.png"></image>
+        <view class="c_text">学校查询</view>
+      </view>
+      <view class="c_icon" data-url="/pages/module/major_cx/major_list/index" bindtap="go_url">
+        <image  src="/images/home/zy.png"></image>
+        <view class="c_text">专业查询</view>
+      </view>
+      <view class="c_icon" data-url="/pages/module/compare_db/compare/compare" bindtap="go_url">
+        <image  src="/images/home/yx.png"></image>
+        <view class="c_text">院系对比</view>
+      </view>
+    </view>
+<!-- 研吧 -->
+    <view class="c_title"> <text></text>研吧</view>
+    <view class="card">
+      <view class="c_icon" data-url="/pages/module/yuceba/yuce_search/yuce_search" bindtap="go_url">
+        <image src="/images/home/ycb.png"></image>
+        <view class="c_text">预测吧</view>
+      </view>
+      <view class="c_icon" data-url="/pages/module/stu_ba/book_list/book_list" bindtap="go_url">
+        <image  src="/images/home/xxb.png"></image>
+        <view class="c_text">学习吧</view>
+      </view>
+      <view class="c_icon" data-url="/pages/module/material_ba/book_list/book_list" bindtap="go_url">
+        <image  src="/images/home/zlb.png"></image>
+        <view class="c_text">资料吧</view>
+      </view>
+    </view>
+  </view>
+<block wx:if="{{win}}">
+<view  style="width:100vw;height: 1px;background-color: #bfbfbf;"></view>
+    <view class="bottom_box">
+    <!-- 最新研讯 -->
+      <view class="c_title"> <text></text>最新研讯</view>
+      <navigator class="nav" url="/pages/show_msg/show_msg?id=0">
+      <view class="b_msg">
+        <view class="b_title">2020考研英语：作文热门素材汇总</view>
+        <view class="content">摘要：以下就是2020年考研英语的热门素材啦，建议大家收藏起来哦。2020考 研英语一热门素材收集与整理工作应该从...</view>
+        <view class="text">2019-10-11</view>
+      </view>
+      </navigator>
+      <navigator class="nav" url="/pages/show_msg/show_msg?id=1">
+      <view class="b_msg">
+        <view class="b_title">2020年全国硕士研究生招生考试公告</view>
+        <view class="content">2020年全国硕士研究生招生考试初试时间为2019年12月21日至12月22日（每天上午8:30-11:30，下午14:00-17:00）...</view>
+        <view class="text">2019-8-19</view>
+      </view>
+      </navigator>
+    </view>
+    </block>
+</view>
+
+<view style="height:13vw;"></view>
+<win bind:run="test"></win>
+<import src="../../template/template.wxml" />
+<template is="tabbar" data="{{tabbar}}"/>
+
+
+

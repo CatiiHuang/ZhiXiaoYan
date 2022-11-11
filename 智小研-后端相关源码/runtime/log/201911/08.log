@@ -1,0 +1,1561 @@
+---------------------------------------------------------------
+[ 2019-11-08T00:42:49+08:00 ] 14.108.49.225 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2020
+[运行时间：0.017517s] [吞吐率：57.09req/s] [内存消耗：2,268.42kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000747s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.02.1909111 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-user' => '?F',
+  'sec-fetch-dest' => 'empty',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2020',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001072s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T02:24:58+08:00 ] 184.154.47.2 GET 122.112.241.33/
+[运行时间：0.021887s] [吞吐率：45.69req/s] [内存消耗：2,948.12kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000741s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'host' => '122.112.241.33',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001089s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T02:29:40+08:00 ] 3.112.251.68 GET 122.112.241.33/
+[运行时间：0.022797s] [吞吐率：43.87req/s] [内存消耗：2,947.38kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000805s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '122.112.241.33',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001208s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T04:06:26+08:00 ] 124.156.50.249 GET /
+[运行时间：0.022621s] [吞吐率：44.21req/s] [内存消耗：2,946.48kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000774s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001152s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T05:09:17+08:00 ] 169.197.108.38 GET 122.112.241.33/
+[运行时间：0.022240s] [吞吐率：44.96req/s] [内存消耗：2,948.18kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000758s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'host' => '122.112.241.33',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001137s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T08:09:16+08:00 ] 74.82.47.2 GET 122.112.241.33/
+[运行时间：0.022066s] [吞吐率：45.32req/s] [内存消耗：2,946.71kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000733s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '122.112.241.33',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001149s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T09:53:22+08:00 ] 110.99.243.47 GET mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicket&requestData=%5B%7B%22train_date%22%3A%2220191118%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%2277988fa558a12dda045b50fb5b7e10d3%22%2C%22device_no%22%3A%22VXB5FpLAgeUDAF9qiX5olHvl%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220191108095321%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.2.10%22%7D%7D%5D&ts=1573178001942&sign=
+[运行时间：0.015933s] [吞吐率：62.76req/s] [内存消耗：2,087.02kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000802s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'workspaceid' => 'product',
+  'trackerid' => 'A60e5cebdc0b603ab9a86f9243babc4f9',
+  'signtype' => '0',
+  'platform' => 'ANDROID',
+  'pagets' => 'C_NULL',
+  'did' => 'VXB5FpLAgeUDAF9qiX5olHvl',
+  'dfpstr' => 'mTKlQCAeeSTdnD5isMyh4DTMob7ISXZTlMD2vLVS2F8lWxK7RlrxV3QNP939ccQ_RxGz0n5XdUcp4NcnSJqsZeC1ifx1MrkQLTzFa0xBspTeM63-T4VcAFf_1KXFpnFk6HAWBXeg8771Og7U4YL1q4rdOR_enDQj',
+  'clientid' => '190621103621857|869085020615606',
+  'bbid' => '710d4f2b-5e97-3561-afac-dd5d4298f299',
+  'appid' => '9101430221728',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'mobile.12306.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'operationType' => 'com.cars.otsmobile.queryLeftTicket',
+  'requestData' => '[{"train_date":"20191118","purpose_codes":"00","from_station":"PIJ","to_station":"POJ","station_train_code":"","start_time_begin":"0000","start_time_end":"2400","train_headers":"QB#","train_flag":"","seat_type":"","seatBack_Type":"","ticket_num":"","dfpStr":"","baseDTO":{"check_code":"77988fa558a12dda045b50fb5b7e10d3","device_no":"VXB5FpLAgeUDAF9qiX5olHvl","mobile_no":"","os_type":"a","time_str":"20191108095321","user_name":"","version_no":"4.2.10"}}]',
+  'ts' => '1573178001942',
+  'sign' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T09:53:22+08:00 ] 110.99.243.47 GET mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicket&requestData=%5B%7B%22train_date%22%3A%2220191118%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%22853e797990b32ca8b692f28b37a2dd0b%22%2C%22device_no%22%3A%22VXB5FpLAgeUDAF9qiX5olHvl%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220191108095322%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.2.10%22%7D%7D%5D&ts=1573178002053&sign=
+[运行时间：0.015904s] [吞吐率：62.88req/s] [内存消耗：2,087.02kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000749s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'workspaceid' => 'product',
+  'trackerid' => 'A60e5cebdc0b603ab9a86f9243babc4f9',
+  'signtype' => '0',
+  'platform' => 'ANDROID',
+  'pagets' => 'C_NULL',
+  'did' => 'VXB5FpLAgeUDAF9qiX5olHvl',
+  'dfpstr' => 'mTKlQCAeeSTdnD5isMyh4DTMob7ISXZTlMD2vLVS2F8lWxK7RlrxV3QNP939ccQ_RxGz0n5XdUcp4NcnSJqsZeC1ifx1MrkQLTzFa0xBspTeM63-T4VcAFf_1KXFpnFk6HAWBXeg8771Og7U4YL1q4rdOR_enDQj',
+  'clientid' => '190621103621857|869085020615606',
+  'bbid' => '710d4f2b-5e97-3561-afac-dd5d4298f299',
+  'appid' => '9101430221728',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'mobile.12306.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'operationType' => 'com.cars.otsmobile.queryLeftTicket',
+  'requestData' => '[{"train_date":"20191118","purpose_codes":"00","from_station":"PIJ","to_station":"POJ","station_train_code":"","start_time_begin":"0000","start_time_end":"2400","train_headers":"QB#","train_flag":"","seat_type":"","seatBack_Type":"","ticket_num":"","dfpStr":"","baseDTO":{"check_code":"853e797990b32ca8b692f28b37a2dd0b","device_no":"VXB5FpLAgeUDAF9qiX5olHvl","mobile_no":"","os_type":"a","time_str":"20191108095322","user_name":"","version_no":"4.2.10"}}]',
+  'ts' => '1573178002053',
+  'sign' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T09:53:22+08:00 ] 110.99.243.47 GET mobile.12306.cn/otsmobile/app/mgs/mgw.htm?operationType=com.cars.otsmobile.queryLeftTicket&requestData=%5B%7B%22train_date%22%3A%2220191118%22%2C%22purpose_codes%22%3A%2200%22%2C%22from_station%22%3A%22PIJ%22%2C%22to_station%22%3A%22POJ%22%2C%22station_train_code%22%3A%22%22%2C%22start_time_begin%22%3A%220000%22%2C%22start_time_end%22%3A%222400%22%2C%22train_headers%22%3A%22QB%23%22%2C%22train_flag%22%3A%22%22%2C%22seat_type%22%3A%22%22%2C%22seatBack_Type%22%3A%22%22%2C%22ticket_num%22%3A%22%22%2C%22dfpStr%22%3A%22%22%2C%22baseDTO%22%3A%7B%22check_code%22%3A%22853e797990b32ca8b692f28b37a2dd0b%22%2C%22device_no%22%3A%22VXB5FpLAgeUDAF9qiX5olHvl%22%2C%22mobile_no%22%3A%22%22%2C%22os_type%22%3A%22a%22%2C%22time_str%22%3A%2220191108095322%22%2C%22user_name%22%3A%22%22%2C%22version_no%22%3A%224.2.10%22%7D%7D%5D&ts=1573178002149&sign=
+[运行时间：0.016482s] [吞吐率：60.67req/s] [内存消耗：2,087.02kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000797s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'workspaceid' => 'product',
+  'trackerid' => 'A60e5cebdc0b603ab9a86f9243babc4f9',
+  'signtype' => '0',
+  'platform' => 'ANDROID',
+  'pagets' => 'C_NULL',
+  'did' => 'VXB5FpLAgeUDAF9qiX5olHvl',
+  'dfpstr' => 'mTKlQCAeeSTdnD5isMyh4DTMob7ISXZTlMD2vLVS2F8lWxK7RlrxV3QNP939ccQ_RxGz0n5XdUcp4NcnSJqsZeC1ifx1MrkQLTzFa0xBspTeM63-T4VcAFf_1KXFpnFk6HAWBXeg8771Og7U4YL1q4rdOR_enDQj',
+  'clientid' => '190621103621857|869085020615606',
+  'bbid' => '710d4f2b-5e97-3561-afac-dd5d4298f299',
+  'appid' => '9101430221728',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'mobile.12306.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'operationType' => 'com.cars.otsmobile.queryLeftTicket',
+  'requestData' => '[{"train_date":"20191118","purpose_codes":"00","from_station":"PIJ","to_station":"POJ","station_train_code":"","start_time_begin":"0000","start_time_end":"2400","train_headers":"QB#","train_flag":"","seat_type":"","seatBack_Type":"","ticket_num":"","dfpStr":"","baseDTO":{"check_code":"853e797990b32ca8b692f28b37a2dd0b","device_no":"VXB5FpLAgeUDAF9qiX5olHvl","mobile_no":"","os_type":"a","time_str":"20191108095322","user_name":"","version_no":"4.2.10"}}]',
+  'ts' => '1573178002149',
+  'sign' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T09:53:22+08:00 ] 110.99.255.134 POST mobile.12306.cn/otsmobile/app/mgs/mgw.htm
+[运行时间：0.016239s] [吞吐率：61.58req/s] [内存消耗：2,063.01kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000827s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'otsmobile',
+    1 => 'app',
+    2 => 'mgs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-mgs-encryption' => '1',
+  'workspaceid' => 'product',
+  'version' => '2',
+  'ts' => 'Mv8jqiu',
+  'signtype' => '0',
+  'sign' => 'ef980f63794f73e33a58e1dc7b51077d',
+  'platform' => 'ANDROID',
+  'pagets' => 'C_NULL',
+  'operation-type' => 'com.cars.otsmobile.login',
+  'did' => 'VXB5FpLAgeUDAF9qiX5olHvl',
+  'dfpstr' => 'IEBr-JWtkg3Uv0YK7Dcqb4EIeTNFcWGLdFR7c0BGaJetN0P2LBzRlJtW2c8CoQSdkCjpGtXDRCS4GSrrNgEMEPor8BitvSTNn_0aeD-Yw8lkhliMc803ry9eRCj6nMWp9vYyuNUTWiY4YMOlLLbSURJrBUETyGpL',
+  'content-type' => 'application/json',
+  'bbid' => '710d4f2b-5e97-3561-afac-dd5d4298f299',
+  'appid' => '9101430221728',
+  'accept-language' => 'zh-Hans',
+  'accept-encoding' => 'gzip',
+  'content-length' => '313',
+  'user-agent' => 'android',
+  'host' => 'mobile.12306.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T13:03:08+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2019
+[运行时间：0.017760s] [吞吐率：56.31req/s] [内存消耗：2,265.59kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000746s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2019',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001145s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:10+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.019634s] [吞吐率：50.93req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000842s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001299s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:12+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E8%8B%B1%E8%AF%AD
+[运行时间：0.017385s] [吞吐率：57.52req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000787s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '英语',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001153s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:13+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.018483s] [吞吐率：54.10req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000731s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001148s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:14+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E8%8B%B1%E8%AF%AD
+[运行时间：0.018393s] [吞吐率：54.37req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000782s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '英语',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001171s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:14+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.017718s] [吞吐率：56.44req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000772s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001135s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:15+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.018580s] [吞吐率：53.82req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000753s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001128s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:15+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.017652s] [吞吐率：56.65req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000791s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001170s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:19+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.018028s] [吞吐率：55.47req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000714s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001080s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:22+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.017939s] [吞吐率：55.74req/s] [内存消耗：2,265.60kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000779s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001118s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:23+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.017294s] [吞吐率：57.82req/s] [内存消耗：2,265.60kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000750s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001162s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:23+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.018264s] [吞吐率：54.75req/s] [内存消耗：2,265.60kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000790s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001167s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:26+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.017565s] [吞吐率：56.93req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000709s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001131s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:03:27+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getDownload?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.017827s] [吞吐率：56.09req/s] [内存消耗：2,265.69kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000827s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getDownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand3 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001164s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:04:41+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2019
+[运行时间：0.018813s] [吞吐率：53.15req/s] [内存消耗：2,265.59kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000754s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand0 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2019',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001183s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:04:49+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2019
+[运行时间：0.017280s] [吞吐率：57.87req/s] [内存消耗：2,265.59kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000732s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand0 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2019',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001073s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:05:01+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com//api/wx/getSchoolIMG?name=%E9%87%8D%E5%BA%86%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6
+[运行时间：0.018996s] [吞吐率：52.64req/s] [内存消耗：2,265.88kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000774s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getSchoolIMG',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand0 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '重庆邮电大学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001180s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T13:05:04+08:00 ] 14.108.46.216 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2019
+[运行时间：0.017463s] [吞吐率：57.26req/s] [内存消耗：2,265.59kb] [文件加载：112]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000738s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand0 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2019',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001075s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$data1' (T_VARIABLE)[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:64]
+---------------------------------------------------------------
+[ 2019-11-08T16:07:08+08:00 ] 213.52.128.29 GET 122.112.241.33/
+[运行时间：0.022332s] [吞吐率：44.78req/s] [内存消耗：2,948.37kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000743s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '122.112.241.33',
+  'accept-encoding' => 'identity',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT; FreeBSD; Debian; Android) Gecko/20170101 Firefox Chrome Safaria',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001106s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T19:39:59+08:00 ] 185.153.197.5 GET 122.112.241.33/?q={${print(md5(565456324))}}&s={${print(md5(565456324))}}&search={${print(md5(565456324))}}&query={${print(md5(565456324))}}&qu={${print(md5(565456324))}}&se={${print(md5(565456324))}}&f={${print(md5(565456324))}}&find={${print(md5(565456324))}}&quest={${print(md5(565456324))}}&suche={${print(md5(565456324))}}&recherche={${print(md5(565456324))}}&r={${print(md5(565456324))}}&buscar={${print(md5(565456324))}}&b={${print(md5(565456324))}}&cerca&c={${print(md5(565456324))}}&zoeken={${print(md5(565456324))}}&z={${print(md5(565456324))}}&etsi={${print(md5(565456324))}}&e={${print(md5(565456324))}}&x={${print(md5(565456324))}}
+[运行时间：0.015471s] [吞吐率：64.64req/s] [内存消耗：2,081.93kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000754s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{${print(md5(565456324))}}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0',
+  'host' => '122.112.241.33',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'q' => '{${print(md5(565456324))}}',
+  'search' => '{${print(md5(565456324))}}',
+  'query' => '{${print(md5(565456324))}}',
+  'qu' => '{${print(md5(565456324))}}',
+  'se' => '{${print(md5(565456324))}}',
+  'f' => '{${print(md5(565456324))}}',
+  'find' => '{${print(md5(565456324))}}',
+  'quest' => '{${print(md5(565456324))}}',
+  'suche' => '{${print(md5(565456324))}}',
+  'recherche' => '{${print(md5(565456324))}}',
+  'r' => '{${print(md5(565456324))}}',
+  'buscar' => '{${print(md5(565456324))}}',
+  'b' => '{${print(md5(565456324))}}',
+  'cerca' => '',
+  'c' => '{${print(md5(565456324))}}',
+  'zoeken' => '{${print(md5(565456324))}}',
+  'z' => '{${print(md5(565456324))}}',
+  'etsi' => '{${print(md5(565456324))}}',
+  'e' => '{${print(md5(565456324))}}',
+  'x' => '{${print(md5(565456324))}}',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:07:25+08:00 ] 144.91.95.116 GET 122.112.241.33:443/001565000000.cfg
+[运行时间：0.016051s] [吞吐率：62.30req/s] [内存消耗：2,074.16kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000797s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '001565000000.cfg',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'libwww-perl/5.833',
+  'host' => '122.112.241.33:443',
+  'connection' => 'TE, close',
+  'te' => 'deflate,gzip;q=0.3',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:08:00+08:00 ] 101.91.62.11 GET hgqlgzsl.temdu.com/admin.php
+[运行时间：0.022374s] [吞吐率：44.69req/s] [内存消耗：2,840.28kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000762s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'hgqlgzsl.temdu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001101s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000064s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:08:00+08:00 ] 58.251.121.186 GET hgqlgzsl.temdu.com/admin.php/ky_content?ref=addtabs
+[运行时间：0.022410s] [吞吐率：44.62req/s] [内存消耗：2,820.78kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000737s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ky_content',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'hgqlgzsl.temdu.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001091s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000059s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:12:34+08:00 ] 172.105.94.201 GET 122.112.241.33/api/v1/pods
+[运行时间：0.018397s] [吞吐率：54.36req/s] [内存消耗：2,260.95kb] [文件加载：113]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000792s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'pods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '122.112.241.33',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001153s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:17:45+08:00 ] 14.109.101.119 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2020
+[运行时间：0.021026s] [吞吐率：47.56req/s] [内存消耗：2,636.89kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000865s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; GM1910 Build/QKQ1.190716.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.90 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/WIFI Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2020',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001150s ]
+[ info ] [ RUN ] app\api\controller\Wx->getToTime[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:35:58+08:00 ] 14.108.32.85 GET hgqlgzsl.temdu.com/api/wx/getToTime?year=2019
+[运行时间：0.020263s] [吞吐率：49.35req/s] [内存消耗：2,636.89kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000805s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getToTime',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2019',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001102s ]
+[ info ] [ RUN ] app\api\controller\Wx->getToTime[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-08T20:36:01+08:00 ] 14.108.32.85 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.026926s] [吞吐率：37.14req/s] [内存消耗：3,625.48kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000753s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001072s ]
+[ info ] [ RUN ] app\api\controller\Wx->getBook[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_book` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_book` WHERE  `km` LIKE '%政治%' [ RunTime:0.000236s ]
+[ error ] [8]未定义变量: data1[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:47]
+---------------------------------------------------------------
+[ 2019-11-08T20:36:03+08:00 ] 14.108.32.85 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E8%8B%B1%E8%AF%AD
+[运行时间：0.026493s] [吞吐率：37.75req/s] [内存消耗：3,405.55kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000774s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '英语',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001124s ]
+[ info ] [ RUN ] app\api\controller\Wx->getBook[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_book` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_book` WHERE  `km` LIKE '%英语%' [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2019-11-08T20:36:04+08:00 ] 14.108.32.85 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E6%95%B0%E5%AD%A6
+[运行时间：0.027589s] [吞吐率：36.25req/s] [内存消耗：3,625.48kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000719s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '数学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001098s ]
+[ info ] [ RUN ] app\api\controller\Wx->getBook[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_book` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_book` WHERE  `km` LIKE '%数学%' [ RunTime:0.000301s ]
+[ error ] [8]未定义变量: data1[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:47]
+---------------------------------------------------------------
+[ 2019-11-08T20:36:06+08:00 ] 14.108.32.85 GET hgqlgzsl.temdu.com//api/wx/getBook?km=%E6%94%BF%E6%B2%BB
+[运行时间：0.028399s] [吞吐率：35.21req/s] [内存消耗：3,625.48kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000817s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getBook',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'km' => '政治',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001143s ]
+[ info ] [ RUN ] app\api\controller\Wx->getBook[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_book` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_book` WHERE  `km` LIKE '%政治%' [ RunTime:0.000234s ]
+[ error ] [8]未定义变量: data1[/www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php:47]
+---------------------------------------------------------------
+[ 2019-11-08T21:03:02+08:00 ] 14.108.61.122 GET hgqlgzsl.temdu.com//api/wx/getSchoolIMG?name=%E5%AE%89%E5%BE%BD%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6
+[运行时间：0.026846s] [吞吐率：37.25req/s] [内存消耗：3,406.16kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000766s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getSchoolIMG',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '安徽理工大学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001119s ]
+[ info ] [ RUN ] app\api\controller\Wx->getSchoolIMG[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ky_content` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT `school_logo` FROM `fa_ky_content` WHERE  `school_name` = '安徽理工大学' [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2019-11-08T21:03:04+08:00 ] 14.108.61.122 GET hgqlgzsl.temdu.com//api/wx/getSchoolIMG?name=%E5%AE%89%E5%BE%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6
+[运行时间：0.027350s] [吞吐率：36.56req/s] [内存消耗：3,406.16kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000785s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getSchoolIMG',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '安徽农业大学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001165s ]
+[ info ] [ RUN ] app\api\controller\Wx->getSchoolIMG[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ky_content` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT `school_logo` FROM `fa_ky_content` WHERE  `school_name` = '安徽农业大学' [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2019-11-08T21:04:58+08:00 ] 14.108.61.122 GET hgqlgzsl.temdu.com//api/wx/getSchoolIMG?name=%E5%AE%89%E5%BE%BD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6
+[运行时间：0.026321s] [吞吐率：37.99req/s] [内存消耗：3,406.16kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000733s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'wx',
+    2 => 'getSchoolIMG',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'hgqlgzsl.temdu.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; SM-G9650 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 MicroMessenger/7.0.8.1540(0x27000833) Process/appbrand2 NetType/4G Language/zh_CN ABI/arm64',
+  'content-type' => 'application/json',
+  'referer' => 'https://servicewechat.com/wxe50d2a357b7081d2/0/page-frame.html',
+  'accept-encoding' => 'gzip',
+  'charset' => 'utf-8',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '安徽农业大学',
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/api/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ RUN ] app\api\controller\Wx->getSchoolIMG[ /www/wwwroot/hgqlgzsl.temdu.com/application/api/controller/Wx.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_ky_content` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `school_logo` FROM `fa_ky_content` WHERE  `school_name` = '安徽农业大学' [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2019-11-08T23:48:53+08:00 ] 159.203.201.165 GET 122.112.241.33/
+[运行时间：0.024156s] [吞吐率：41.40req/s] [内存消耗：2,947.38kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000859s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '122.112.241.33',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001207s ]
+[ info ] [ LANG ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hgqlgzsl.temdu.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/hgqlgzsl.temdu.com/public/../application/index/view/index/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File

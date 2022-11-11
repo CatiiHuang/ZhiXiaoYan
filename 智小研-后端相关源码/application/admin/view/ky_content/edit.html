@@ -1,0 +1,76 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('School_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-school_name" class="form-control" name="row[school_name]" type="text" value="{$row.school_name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('First_rate')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-first_rate" class="form-control" name="row[first_rate]" type="number" value="{$row.first_rate|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Flag_yjxk')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-flag_yjxk" class="form-control" name="row[flag_yjxk]" type="number" value="{$row.flag_yjxk|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Flag_985')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-flag_985" class="form-control" name="row[flag_985]" type="number" value="{$row.flag_985|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Flag_211')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-flag_211" class="form-control" name="row[flag_211]" type="number" value="{$row.flag_211|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Flag_score')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-flag_score" class="form-control" name="row[flag_score]" type="number" value="{$row.flag_score|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Province')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-province" class="form-control" name="row[province]" type="text" value="{$row.province|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pro_school_type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pro_school_type" class="form-control" name="row[pro_school_type]" type="text" value="{$row.pro_school_type|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('School_code')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-school_code" class="form-control" name="row[school_code]" type="number" value="{$row.school_code|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('School_logo')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-school_logo" class="form-control" name="row[school_logo]" type="text" value="{$row.school_logo|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('School_introduce')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-school_introduce" class="form-control " rows="5" name="row[school_introduce]" cols="50">{$row.school_introduce|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

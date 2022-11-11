@@ -1,0 +1,19 @@
+<view class="top_box">
+  <view class="title">{{sp_obj.zlm}}</view>
+  <view class="money">免费</view>
+  <view class="ms">
+    <view class="times">{{sp_obj.xzcs}}次下载</view>
+    <image wx:for="{{sp_obj.xx}}" src="/images/index/star.png"></image>
+  </view>
+</view>
+<view style="height: 2vw;background-color:#e7e7e7"></view>
+<view class="cont_box">
+  <view class="title">{{sp_obj.zlm}}</view>
+  <view class="ms"><text>文件描述</text>：{{sp_obj.ms}}</view>
+  <view class="szie"><text>大小</text>：{{sp_obj.dx}}</view>
+  <view class="gs"><text>格式</text>：{{sp_obj.gs}}</view>
+  <view class="time"><text>上线时间</text>：{{sp_obj.createtime}}</view>
+</view>
+
+
+<view bindtap="down" class="btn">下载</view>

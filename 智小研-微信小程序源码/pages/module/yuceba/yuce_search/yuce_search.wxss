@@ -1,0 +1,102 @@
+/* pages/module/yuceba/yuce_search.wxss */
+page{
+  padding-top: 11vw;
+}
+.top_box{
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  padding:3vw 8vw;
+  padding-top: 1vw;
+  background-color: #ffe346;
+}
+.top_box view{
+	height: 7vw;
+	background-color: #f1c75b;
+	border-radius: 4vw;
+  line-height: 7vw;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  
+}
+.top_box view image{
+	width: 5vw;
+  margin: 1vw 3vw 0 0;
+	height: 5vw;
+  float:left;
+}
+.placeholder{
+   font-size: 3vw;
+  height: 7vw;
+  line-height: 7vw;
+}
+.top_box input{
+  display: inline-block;
+  font-size: 3vw;
+  height: 7vw;
+  line-height: 7vw;
+}
+page{
+  background-color: #fafafa;
+}
+.btn{
+  overflow: hidden;
+  zoom: 1;
+  padding: 2vw;
+  position: relative!important;
+}
+button{
+  background-color: #fff;
+  height: 8vw;
+  line-height: 8vw;
+  text-align: center;
+  float: right;
+  font-size: 2.5vw;
+}
+.list_box{
+  margin-left: 8vw;
+  margin-top: 1vw;
+  font-size: 4vw;
+  height: 8vw;
+  box-sizing: border-box;
+  padding-left: 2vw;
+	line-height: 8vw;
+	letter-spacing: 1rpx;
+	color: #333333;
+  border-bottom: 1px solid #cccccc;
+}
+.body_bg{
+  position: relative;
+  width: 92vw;
+  margin: 3vw auto;
+	height: 145vw;
+  background: center center no-repeat;
+  background-size: 64vw 120vw;
+	background-color: #ffffff;
+	box-shadow: 0vw 0vw 4vw 0vw 
+		rgba(166, 166, 166, 0.33);
+	border-radius: 2vw;
+}
+.body_bg view{
+  position: absolute;
+  font-size: 2vw;
+	line-height: 2vw;
+	color: #424242;
+}
+.body_bg .cet4{
+  top: 39vw;
+  left: 16vw;
+}
+.body_bg .jidian{
+   top: 66vw;
+  left: 61vw;
+}
+.body_bg .nianji{
+   top: 98vw;
+  left: 63vw;
+}
+.body_bg .zh{
+   bottom: 57vw;
+  left: 16vw;
+}

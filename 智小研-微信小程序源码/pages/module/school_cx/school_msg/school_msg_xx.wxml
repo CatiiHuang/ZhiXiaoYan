@@ -1,0 +1,67 @@
+<view class="top_box" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/module/school_xx.png')">
+    <view class="name_box">
+        <view>{{major}}</view>
+        <view></view>
+    </view>
+    <view class="tab_box">
+        <view wx:for="{{['分数线','研究方向','考试科目','拟招人数','专业备注']}}" wx:key="index" bindtap="change_item" data-index="{{index}}"  class="btn {{index==cur_index?'act':''}}">
+          {{item}}
+        </view>
+    </view>
+</view>
+<swiper bindchange="swiper_change" current="{{cur_index}}" style="height:130vw">
+  <swiper-item>
+  <view class="center_box" style="padding-top:4vw;">
+  <view class="Charts-item">
+    <view class="Charts_title">总分</view>
+  <canvas canvas-id="lineCanvas1" disable-scroll="true" class="canvas"></canvas>
+  </view>
+  <view class="Charts-item">
+    <view class="Charts_title">小科<text> (满分{{char_lt}}100)</text>  </view>
+  <canvas canvas-id="lineCanvas2" disable-scroll="true" class="canvas"></canvas>
+  </view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="center_box kskm" style="padding-top:4vw;">
+    <scroll-view scroll-y="true" style="height:115vw;">
+      <text class="title">(全日制) {{major}}</text>
+      <text class="ms1">研究方向:</text>
+       <view wx:for="{{yjfx}}" wx:key="index">{{item}}</view>
+      <!-- <view>01 车联网与智能交通</view>
+      <view>02 大数据处理与数据挖掘</view>
+      <view>03 多处理器及高性能并行系统</view>
+      <view>04 仿生计算</view>
+      <view>06 机器学习与计算智能</view>
+      <view>07 计算机软件安全</view>
+      <view>08 可信软件技术</view>
+      <view>09 量子密码、量子计算与量子信息</view>
+      <view>10 面向服务的软件工程</view>
+      <view>11 模式识别 </view>
+      <view>12 普适计算</view>
+      <view>13 嵌入式及物联网系统</view>
+      <view>14 嵌入式及移动计算</view>
+      <view>15 嵌入式技术及应用</view> -->
+      </scroll-view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="center_box kskm" style="padding-top:4vw;">
+      <text class="title">考试科目</text>
+      <view>{{exam}} </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="center_box kskm nzrs" style="padding-top:4vw;text-align:center">
+      <text class="title">拟招生人数</text>
+      <view><text class="wid">总计划</text>：{{stu}}人</view>
+    </view>
+  </swiper-item>
+   <swiper-item>
+    <view class="center_box kskm zbbz" style="padding-top:4vw;">
+      <text class="title">专业备注</text>
+      <view>{{zybz}}</view>
+      
+    </view>
+  </swiper-item>
+</swiper>

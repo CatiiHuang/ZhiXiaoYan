@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "学校",
+  "navigationBarBackgroundColor": "#ffe346",
+  "usingComponents": {
+    "i-index": "/dist/index/index",
+    "i-index-item": "/dist/index-item/index"
+  }
+}

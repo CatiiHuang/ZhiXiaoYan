@@ -1,0 +1,36 @@
+<view class="top_box">
+  <view>
+    <image src="/images/login/logo.jpg"></image>
+    <text>智小研</text>
+  </view>
+</view>
+<view class="form_box">
+<form bindsubmit="formSubmit">
+  <view class="form_item">
+    <image src="/images/login/school.png"></image>
+    <input name="school" placeholder="学校" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/name.png"></image>
+    <input name="name" placeholder="姓名" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/num.png"></image>
+    <input name="num" placeholder="学号" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/cet.png"></image>
+    <input name="cet" placeholder="CET4/6" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/pas.png"></image>
+    <input name="password" type="password" placeholder="密码" confirm="formSubmit" placeholder-class="inp"></input>
+  </view>
+  <view class="ms">
+    <view><navigator url="/pages/login/login">登录</navigator></view>
+    <view>注册详情</view>
+  </view>
+  <button formType="submit" hover-class="hover">注 册</button>
+</form>
+</view>
+<i-toast id="toast" />

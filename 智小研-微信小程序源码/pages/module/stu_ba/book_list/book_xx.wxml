@@ -1,0 +1,9 @@
+<image class="img" src="{{sp_obj.tpimage}}"></image>
+  <view class="title">{{sp_obj.mz}}</view>
+<view class="cont_box">
+  <view><text>书籍描述</text>：<text>{{sp_obj.jstext}}</text></view>
+  <view><text>推荐星级</text>：<image wx:for="{{sp_obj.xx}}" wx:key="1" src="/images/index/star.png"></image>  </view>
+  <view><text>上线时间</text>：<text>{{sp_obj.updatetime}}</text></view>
+</view>
+<button disabled="true">在线查看</button>
+<button bindlongtap="copy" >长按复制链接</button>

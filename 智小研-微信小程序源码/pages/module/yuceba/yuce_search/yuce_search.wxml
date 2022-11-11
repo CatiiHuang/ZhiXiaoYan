@@ -1,0 +1,26 @@
+<view class="top_box">
+    <view>
+      <image src="/images/index/search.png"></image>
+      <input placeholder-class="placeholder" placeholder="搜索专业" bindconfirm="search_list" bindblur="search_list" bindinput="change_inp"></input>
+    </view>
+</view>
+<view style="height:1vw;"></view>
+
+<scroll-view wx:if="{{show_list}}" scroll-y="true" style="height:90vh" >
+  <view class="list_box" wx:for="{{list}}" bindtap="go_school" data-name="{{item.name}}">
+    {{item.name}}
+  </view>
+</scroll-view>
+
+<block wx:else>
+
+<view class="body_bg" style="background-image:url(https://hgqlgzsl.temdu.com/assets/wx/module/body_bg.png)">
+  <view class="btn">
+    <button bindtap="go_list">进入专业列表</button>
+  </view>
+  <view class="cet4">CET4：552分</view>
+  <view class="jidian">绩点合计：32</view>
+  <view class="nianji">年级排名：第1名</view>
+  <view class="zh">综合测评：第3名</view>
+</view>
+</block>

@@ -1,0 +1,46 @@
+.top_box{
+  padding:3vw 8vw;
+  padding-top: 1vw;
+  background-color: #ffe346;
+}
+.top_box view{
+	height: 7vw;
+	background-color: #f1c75b;
+	border-radius: 4vw;
+  line-height: 7vw;
+  padding-left: 3vw;
+  box-sizing: border-box;
+  
+}
+.top_box view image{
+	width: 5vw;
+  margin: 1vw 3vw 0 0;
+	height: 5vw;
+  float:right;
+}
+.placeholder{
+   font-size: 3vw;
+  height: 7vw;
+  line-height: 7vw;
+}
+.top_box input{
+  display: inline-block;
+  font-size: 3vw;
+  height: 7vw;
+  width: 60vw;
+  line-height: 7vw;
+}
+
+
+.list_box{
+  margin-left: 8vw;
+  margin-top: 1vw;
+  font-size: 4vw;
+  height: 8vw;
+  box-sizing: border-box;
+  padding-left: 2vw;
+	line-height: 8vw;
+	letter-spacing: 1rpx;
+	color: #333333;
+  border-bottom: 1px solid #cccccc;
+}

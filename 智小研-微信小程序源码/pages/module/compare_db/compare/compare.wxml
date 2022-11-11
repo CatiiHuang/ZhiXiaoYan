@@ -1,0 +1,29 @@
+<i-toast id="toast" />
+<view class="top_box">
+  <view class="btn" hover-class="btn-down" hover-stay-time="80" bindtap="choose_major">更换专业</view>
+  <view class="card">
+    <view>专业选择</view>
+    <view>{{db_major}}</view>
+  </view>
+</view>
+<view class="compare_box">
+  <view class="com_card">
+    <view class="l_title">学校选择</view>
+    <view class="school_item">
+        <view class="img" bindtap="add_school" data-index="0" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/module/add_school.png')">
+          <image src="{{school[0].src}}"></image>
+        </view>
+        <image wx:if="{{school[0].name}}" class="del" bindtap="del" data-index="0" src='/images/compare/del.png'></image>
+        <text>{{school[0].name}}</text>
+    </view>
+    <view class="school_item">
+        <view class="img"  bindtap="add_school" data-index="1" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/module/add_school.png')">
+          <image src="{{school[1].src}}"></image>
+          
+        </view>
+        <image wx:if="{{school[1].name}}" class="del" bindtap="del" data-index="1" src='/images/compare/del.png'></image>
+        <text>{{school[1].name}}</text>
+    </view>
+  </view>
+  <view hover-class="btn-down" hover-stay-time="80" class="qr_btn" bindtap="go_res">确认对比</view>
+</view>

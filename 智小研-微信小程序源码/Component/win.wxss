@@ -1,0 +1,250 @@
+.djs_top_box{
+  position: relative;
+  background-color: #ffe346;
+}
+.djs_box{
+  background-repeat:no-repeat;
+  background-size:50vw 37vw;
+  width: 50vw;
+  height: 37vw;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 12vw;
+  margin: 0 auto;
+}
+.djs_box view{
+  font-size: 12vw;
+  font-weight: 600;
+	letter-spacing: 0.2vw;
+	color: #2d2d2d;
+}
+.djs_box view text{
+	font-size: 5vw;
+  vertical-align: bottom;
+	color: #2d2d2d;
+  font-weight: normal;
+}
+.djs_top_box image{
+  width: 8vw;
+	height: 7vw;
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+}
+.cont_item{
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 3.8vw;
+  padding: 3vw 3vw 3vw 5vw;
+}
+.cont_item image{
+  display: inline-block;
+  width: 4vw;
+	height: 4vw;
+  margin-right:1.5vw; 
+  vertical-align: middle;
+}
+.cont_item view{
+  display: inline-block;
+}
+.cont_item view:last-of-type{
+  float: right;
+}
+.cont_item view:last-of-type text{
+ font-size: 2.5vw;
+}
+
+/*弹窗*/
+.toast-box {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+ 
+.toastbg {
+    opacity: 0.2;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+}
+ 
+.showToast {
+    position: absolute;
+    opacity: 1;
+    background-color: #fff;
+    width: 70%;
+    box-shadow: 2vw 2vw 5vw #bfbfbf;
+    margin-left: 15%;
+    margin-top: 40%;
+    padding-bottom:1vw;
+}
+ 
+.toast-title {
+    padding-left: 5%;
+    background-color: #ffe346;
+    color: white;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-top-right-radius: 16rpx;
+    border-top-left-radius: 16rpx;
+}
+ .inp{
+   text-align:left;padding-left:2vw; font-size:3vw;
+ }
+ .inp2{
+   text-align:center;padding-left:2vw; font-size:3vw;
+ }
+.toast-main {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: white;
+    text-align: center;
+}
+.toast-main2{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: white;
+    text-align: center;
+}
+.toast-input2{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.toast-input2 input{
+  width: 45%;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+ 
+.toast-input {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #ddd;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+ 
+.toast-button {
+    display: flex;
+}
+ 
+.button1 {
+    width: 50%;
+}
+ 
+.button2 {
+    width: 50%;
+}
+ 
+.button1 button {
+     width: 80%;
+    background-color: white;
+    color: black;
+   height: 8.5vw;
+    line-height: 8.5vw;
+    font-size: 4vw;
+    margin-left: 5vw;    
+}
+ .bg{
+   background-color: #cccccc !important;
+ }
+.button2 button{
+    width: 80%;
+    margin-right: 5vw;
+    background-color: white;
+    color: black;
+    height: 8.5vw;
+    line-height: 8.5vw;
+    font-size: 4vw;
+}
+ 
+.picker {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.list{
+  border-top: 1px solid #cccccc;
+  position: fixed;
+  width: 100vw;
+  bottom: 13vw;
+}
+.list_item{
+  text-align: right;
+  position: fixed;
+  bottom: 31.5vh;
+  right: -6px;
+  z-index: 999;
+}
+
+/*弹窗*/
+/* ******************* */
+.plus{
+  z-index: 9999;
+  height: 90rpx;
+  width: 90rpx;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  bottom: 54rpx;
+  right: 0; 
+}
+.win{
+  max-height: 0;
+  min-height: 0;
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid #bfbfbf; 
+   opacity: 0.6;
+  z-index: -1;
+  overflow: hidden;
+  transition:1s;
+  background-color: #fdfcfc;
+}
+.wined{
+  border-bottom: 1px solid #bfbfbf; 
+  min-height: 100vh;
+  z-index: 999;
+  transition: 1s;
+  opacity: 1;
+  background-color: #fdfcfc;
+}
+
+
+/*  */
+/**index.wxss**/
+ .top_box{
+   font-size: 42rpx;
+   letter-spacing: 4rpx;
+   color: #1c2438;
+   padding: 2vh 0 2vh 6vw;
+ }
+
+ .title{
+   font-size: 32rpx;
+   letter-spacing: 4rpx;
+   color: #495060;
+   padding: 0 0 1vh 12vw;
+ }
+.content{
+  margin: 0 auto;
+  width: 60vw;
+  margin-bottom: 0;
+  margin-top: 3vh;
+}
+.video{
+  margin: 1vh auto;
+  width: 78vw;
+  margin-bottom: 10vh;
+}
+.video video{
+  width: 78vw;
+}
+/**index.wxss**/

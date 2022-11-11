@@ -1,0 +1,35 @@
+<view class="top_box">
+   <view class="img"><open-data type="userAvatarUrl"></open-data></view>
+    <view class="user"><open-data style="display:inline-block;" type="userNickName"></open-data> 你好!</view>
+</view>
+<view class="form_box">
+<form bindsubmit="formSubmit">
+  <view class="form_item">
+    <image src="/images/login/school.png"></image>
+    <input name="school" placeholder="重庆邮电大学移通学院" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/name.png"></image>
+    <input name="name" placeholder="黄国庆" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/num.png"></image>
+    <input name="num" placeholder="学号 2017211043" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/num.png"></image>
+    <input name="num" placeholder="专业 计算机科学与技术" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/cet.png"></image>
+    <input name="cet4" placeholder="CET4 460" placeholder-class="inp"></input>
+  </view>
+  <view class="form_item">
+    <image src="/images/login/cet.png"></image>
+    <input name="cet6" placeholder="CET6 0" placeholder-class="inp"></input>
+  </view>
+ 
+  <button style="margin-top:9vw;" formType="submit" disabled hover-class="hover">修 改</button>
+</form>
+</view>
+<i-toast id="toast"/>

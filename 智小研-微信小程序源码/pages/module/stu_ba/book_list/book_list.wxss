@@ -1,0 +1,112 @@
+/* pages/module/stu_ba/book_list/book_list.wxss */
+.top{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+}
+.tab_box{
+ 
+  background-color: #ffe346;
+  padding:4vw 8vw; 
+	font-size: 4vw;
+  display: flex;
+  justify-content: space-between;
+	color: #2b2b2b;
+  border-top:1px solid #ebcf34; 
+}
+.tab_box view{
+  width: 20%;
+}
+.clicked{
+  font-size: 4vw;
+	color: #712d00;
+  position: relative;
+}
+.tab_box .item_border{
+  width: 7vw;
+	height: 0.8vw;
+  background-color: #712d00;
+  position: absolute;
+  top: 9vw;
+  left: 0;
+}
+/**/
+.choose{
+  padding: 3.5vw 8vw;
+  padding-bottom:1vw; 
+    white-space:nowrap;
+}
+.choose text{
+  color: #2b2b2b;
+  font-size: 4vw;
+  line-height: 5vw;
+  display: inline-block;
+  vertical-align: middle
+}
+.choose view{
+  padding: 0.5vw 2vw;
+  display: inline-block;
+	height: 5vw;
+	border-radius: 3vw;
+	border: solid 1px #d07100;
+  margin-right:3vw;
+  font-size: 3vw;
+	line-height: 5vw;
+  text-align: center;
+	color: #d07100;
+  vertical-align: middle
+}
+.cont_box{
+  padding: 5vw 7vw;
+  padding-top: 0;
+}
+
+.cont_box .list_item{
+  border-bottom:1px solid #bfbfbf;
+  overflow: hidden;
+  padding: 3vw 1vw;
+}
+.btn_group image{
+  margin-right: 0.5vw!important;
+   float: none !important;
+   vertical-align: text-top
+}
+
+.list_item image{
+  float: left;
+  width: 24vw;
+  height: 25vw;
+  margin-right: 3vw;
+}
+.list_item .right_box{
+  float: left;
+}
+.right_box{
+  width: 56vw;
+}
+.right_box .book_title{
+	font-size: 4vw;
+	line-height: 6vw;
+	color: #2b2b2b;
+  margin-bottom:9vw;
+}
+.right_box .dz{
+  font-size: 3vw;
+  margin: 3vw;
+  vertical-align: text-top;
+  display: inline-block;
+	color: #2b2b2b;
+}
+.right_box .btn{
+  float: right;
+  width: 16vw;
+	height: 5vw;
+	border-radius: 1vw;
+	border: solid 1px #d07100;
+  font-size: 3vw;
+  text-align: center;
+  vertical-align: text-bottom;
+	line-height: 5vw;
+	color: #d07100;
+}

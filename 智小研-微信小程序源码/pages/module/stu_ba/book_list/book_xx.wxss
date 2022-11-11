@@ -1,0 +1,46 @@
+/* pages/module/stu_ba/book_list/book_xx.wxss */
+.img{
+  display: block;
+  width: 45vw;
+  height: 45vw;
+  margin: 0 auto;
+  margin-top: 7vw;
+  margin-bottom: 4vw;
+}
+.cont_box{
+  padding:0 8vw;
+  color: #818181;
+  padding-bottom: 5vw;
+  margin-bottom: 5vw;
+  border-bottom: 1px solid #bebebe;
+}
+.cont_box view{
+  margin-bottom: 2vw;
+ 	color: #2b2b2b;
+   	font-size: 3vw;
+}
+.cont_box image{
+  width: 3vw ;
+  height: 3vw;
+}
+.cont_box view text:first-of-type{
+  width: 15vw;
+  text-align-last: justify;
+
+}
+
+button{
+  width: 70vw;
+	height: 8vw;
+	background-color: #ffe346;
+	border-radius: 4vw;
+  font-size: 3vw;
+	line-height: 8vw;
+	color: #2d2d2d;
+  margin-bottom: 4vw;
+}
+.title{
+  text-align: center;
+  font-size: 4vw;
+  margin: 1vw;
+}

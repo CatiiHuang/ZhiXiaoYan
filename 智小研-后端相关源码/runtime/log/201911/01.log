@@ -1,0 +1,508 @@
+---------------------------------------------------------------
+[ 2019-11-01T13:04:11+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/index/login?url=%2Fadmin.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000858s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1572584651,`loginip`='14.109.98.17',`token`='9cd2c0ec-ab93-446b-b300-74c6cd023a6e',`updatetime`=1572584651  WHERE  `id` = 1 [ RunTime:0.004261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin.php\",\"__token__\":\"2a51612654a033528dee2487972855e1\",\"username\":\"admin\",\"captcha\":\"ejec\"}' , '/admin.php/index/login?url=%2Fadmin.php' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572584651) [ RunTime:0.003567s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:04:11+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:04:11+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:04:53+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:04:53+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:04:53+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000760s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:10:42+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/general/attachment?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'general/attachment' LIMIT 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:10:43+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000811s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:10:46+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/general/attachment/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1572585041543
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_attachment` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:11:16+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"fileix\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"e1b7bec7-e3ab-459a-b94c-46a3f8fa81f5\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585076) [ RunTime:0.007426s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:11:25+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"fileix\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"de0246cf-80e8-4511-9444-c5756d349a83\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585085) [ RunTime:0.003971s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:11:28+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000776s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:11:33+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000637s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"fileix\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"de0246cf-80e8-4511-9444-c5756d349a83\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585093) [ RunTime:0.003735s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:11:47+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"fileix\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"21358c6a-b999-426e-bc73-b25590383540\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585107) [ RunTime:0.007291s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:05+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000736s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:05+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000717s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:05+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:05+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:13+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000320s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example' , '开发示例管理' , 'fa fa-magic' , 1 , 0 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.005731s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable' , '表格完整示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004197s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/index' , '查看' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004415s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/detail' , '详情' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.009187s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/change' , '变更' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.002967s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/del' , '删除' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.006563s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/bootstraptable/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 86 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.003710s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch' , '自定义搜索' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004492s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch/index' , '查看' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004504s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch/del' , '删除' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.003015s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customsearch/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 92 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.003649s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customform' , '自定义表单示例' , 'fa fa-edit' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004612s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/customform/index' , '查看' , 0 , 'fa fa-circle-o' , 96 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.005159s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tablelink' , '表格联动示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.005017s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tablelink/index' , '查看' , 0 , 'fa fa-circle-o' , 98 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.003032s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge' , '彩色角标' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.003192s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge/index' , '查看' , 0 , 'fa fa-circle-o' , 100 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.002898s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge/del' , '删除' , 0 , 'fa fa-circle-o' , 100 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.002759s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/colorbadge/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 100 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004095s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump' , '控制器间跳转' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.002951s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump/index' , '查看' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004342s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump/del' , '删除' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004490s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/controllerjump/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 104 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.003890s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect' , '多级联动' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.005885s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect/index' , '查看' , 0 , 'fa fa-circle-o' , 108 , 'normal' , 1572585192 , 1572585192) [ RunTime:0.004996s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect/del' , '删除' , 0 , 'fa fa-circle-o' , 108 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002401s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/cxselect/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 108 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.005800s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable' , '多表格示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.006247s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable/index' , '查看' , 0 , 'fa fa-circle-o' , 112 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.003076s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable/del' , '删除' , 0 , 'fa fa-circle-o' , 112 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.006462s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/multitable/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 112 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.003204s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel' , '关联模型示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.004014s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel/index' , '查看' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.005444s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel/del' , '删除' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002622s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/relationmodel/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 116 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002729s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate' , '表格模板示例' , 'fa fa-table' , 1 , 85 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002754s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/index' , '查看' , 0 , 'fa fa-circle-o' , 120 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002816s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/detail' , '详情' , 0 , 'fa fa-circle-o' , 120 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.003859s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/del' , '删除' , 0 , 'fa fa-circle-o' , 120 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.003651s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/tabletemplate/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 120 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.003886s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap' , '百度地图示例' , 'fa fa-map-pin' , 1 , 85 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002723s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap/index' , '查看' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.005497s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap/map' , '详情' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.002730s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('example/baidumap/del' , '删除' , 0 , 'fa fa-circle-o' , 125 , 'normal' , 1572585193 , 1572585193) [ RunTime:0.004225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"example\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"c146c9e2-3b52-46cf-8149-67f3c05541c1\",\"version\":\"1.0.8\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585193) [ RunTime:0.004164s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:13+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/admin.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585193) [ RunTime:0.005513s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:18+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `icon` , `ismenu` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command' , '在线命令管理' , 'fa fa-terminal' , 1 , 0 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.006040s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/index' , '查看' , 0 , 'fa fa-circle-o' , 129 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.003436s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/add' , '添加' , 0 , 'fa fa-circle-o' , 129 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.003008s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/detail' , '详情' , 0 , 'fa fa-circle-o' , 129 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.002814s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/execute' , '运行' , 0 , 'fa fa-circle-o' , 129 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.003098s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/del' , '删除' , 0 , 'fa fa-circle-o' , 129 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.003101s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('command/multi' , '批量更新' , 0 , 'fa fa-circle-o' , 129 , 'normal' , 1572585198 , 1572585198) [ RunTime:0.003101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"command\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"c146c9e2-3b52-46cf-8149-67f3c05541c1\",\"version\":\"1.0.5\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585198) [ RunTime:0.005523s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:13:18+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/admin.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585198) [ RunTime:0.003763s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:14:00+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"fileix\",\"force\":\"0\",\"uid\":\"4698\",\"token\":\"c146c9e2-3b52-46cf-8149-67f3c05541c1\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20191101_beta\"}' , '/admin.php/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585240) [ RunTime:0.003904s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:14:50+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/local
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000351s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `remark` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('fileix' , '文件管理' , 1 , 'fa fa-folder-o' , '用于管理指定目录下的文件和文件夹，根目录路径请在插件配置中设置' , 0 , 'normal' , 1572585290 , 1572585290) [ RunTime:0.007243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 本地安装' , '{\"name\":\"1.0.3.zip\"}' , '/admin.php/addon/local' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585290) [ RunTime:0.003650s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:14:50+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/state
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `fa_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.000389s ]
+[ sql ] [ SQL ] UPDATE `fa_auth_rule`  SET `status`='normal'  WHERE  `id` IN (136) [ RunTime:0.004922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 禁用启用' , '{\"name\":\"fileix\",\"action\":\"enable\",\"force\":\"0\"}' , '/admin.php/addon/state' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585290) [ RunTime:0.004117s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:14:50+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/admin.php/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585290) [ RunTime:0.003770s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:14:54+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:15:12+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:15:17+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000676s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:15:36+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000916s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:15:36+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000832s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:15:36+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:15:36+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:16:32+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:17:09+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:17:48+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/command?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'command' LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:17:49+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/command/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1572585463958
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_command` [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_command` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_command` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000142s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:17:52+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:17:53+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix/parms
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:17:53+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix/lst
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:22+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000645s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:24+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/downloaded?callback=jQuery224007134527364319165_1572585497800&sort=id&order=desc&offset=0&limit=30&filter=%7B%22type%22%3A%22local%22%2C%22faversion%22%3A%221.0.0.20191101_beta%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22faversion%22%3A%22%3D%22%7D&uid=4698&token=c146c9e2-3b52-46cf-8149-67f3c05541c1&version=1.0.0.20191101_beta&_=1572585497802
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:25+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/config?name=fileix&dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:33+08:00 ] 14.109.98.17 POST hgqlgzsl.temdu.com/admin.php/addon/config?name=fileix&dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 配置' , '{\"name\":\"fileix\",\"dialog\":\"1\",\"row\":{\"root_dir\":\".\\/\",\"ix_height\":\"700\"}}' , '/admin.php/addon/config?name=fileix&dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36' , '14.109.98.17' , 1572585513) [ RunTime:0.004340s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:33+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/downloaded?callback=jQuery224007134527364319165_1572585497800&sort=id&order=desc&offset=0&limit=30&filter=%7B%22type%22%3A%22local%22%2C%22faversion%22%3A%221.0.0.20191101_beta%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22faversion%22%3A%22%3D%22%7D&uid=4698&token=c146c9e2-3b52-46cf-8149-67f3c05541c1&version=1.0.0.20191101_beta&_=1572585497803
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:37+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:38+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix/parms
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:38+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix/lst
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:40+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/downloaded?callback=jQuery224007134527364319165_1572585497800&sort=id&order=desc&offset=0&limit=30&filter=%7B%22type%22%3A%22local%22%2C%22faversion%22%3A%221.0.0.20191101_beta%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22faversion%22%3A%22%3D%22%7D&uid=4698&token=c146c9e2-3b52-46cf-8149-67f3c05541c1&version=1.0.0.20191101_beta&_=1572585497804
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:41+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:41+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix/parms
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:41+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/fileix/lst
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:42+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/downloaded?callback=jQuery224007134527364319165_1572585497800&sort=id&order=desc&offset=0&limit=30&filter=%7B%22type%22%3A%22local%22%2C%22faversion%22%3A%221.0.0.20191101_beta%22%7D&op=%7B%22type%22%3A%22%3D%22%2C%22faversion%22%3A%22%3D%22%7D&uid=4698&token=c146c9e2-3b52-46cf-8149-67f3c05541c1&version=1.0.0.20191101_beta&_=1572585497805
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000684s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:45+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/config?name=example&dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000695s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-11-01T13:18:47+08:00 ] 14.109.98.17 GET hgqlgzsl.temdu.com/admin.php/addon/config?name=fileix&dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2019-11-01T15:23:17+08:00 ] 36.99.136.142 GET hgqlgzsl.temdu.com/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;dbname=hgqlgzsl_temdu_c;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000213s ]

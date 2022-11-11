@@ -1,0 +1,15 @@
+<view class="top_box">
+  <view class="top_title">{{msg.title}}
+  <text></text>
+  </view>
+  <view class="ms_box">
+    <view class="time">{{msg.time}}</view>
+  </view>
+</view>
+<!-- 内容 -->
+<view class="cont_box">
+    <view class="h1" wx:if="{{msg.h1}}">{{msg.h1}}</view>
+    <view>{{msg.text1}}</view>
+    <view class="h1" wx:if="{{msg.h2}}">{{msg.h2}}</view>
+    <view wx:if="{{msg.text2}}">{{msg.text2}}</view>
+</view>

@@ -1,0 +1,96 @@
+/* pages/module/stu_ba/book_list/book_list.wxss */
+.top{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 999;
+}
+.tab_box{
+  background-color: #ffe346;
+  padding:4vw 8vw; 
+	font-size: 4vw;
+  display: flex;
+  justify-content: space-between;
+	color: #2b2b2b;
+  border-top:1px solid #ebcf34; 
+}
+.clicked{
+  font-size: 4vw;
+	color: #712d00;
+  position: relative;
+}
+.tab_box view{
+  width: 20%;
+}
+.tab_box .item_border{
+  width: 7vw;
+	height: 0.8vw;
+  background-color: #712d00;
+  position: absolute;
+  top: 9vw;
+  left: 0;
+}
+/**/
+
+.cont_box{
+  border-top: 1px solid #bfbfbf;
+}
+
+.cont_box .list_item{
+  border-bottom:1px solid #bfbfbf;
+  overflow: hidden;
+  padding: 2vw 9vw;
+}
+.choose{
+  padding: 3.5vw 8vw;
+  padding-bottom:1vw; 
+    white-space:nowrap;
+}
+.choose text{
+  color: #2b2b2b;
+  font-size: 4vw;
+  line-height: 5vw;
+  display: inline-block;
+  vertical-align: middle
+}
+.choose view{
+  padding: 0.5vw 2vw;
+  display: inline-block;
+	height: 5vw;
+	border-radius: 3vw;
+	border: solid 1px #d07100;
+  margin-right:3vw;
+  font-size: 3vw;
+	line-height: 5vw;
+  text-align: center;
+	color: #d07100;
+  vertical-align: middle
+}
+.list_item .book_title{
+	font-size: 4vw;
+  width: 80vw;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+	color: #2b2b2b; 
+}
+.list_item .money{
+  font-size: 3vw;
+  margin: 4vw 0;
+	color: #d07100;
+}
+.list_item .bottom-ms text{
+  display: inline-block;
+  width: 23vw;
+  text-overflow: ellipsis;
+ white-space:nowrap;
+ overflow:hidden;
+	font-size: 3vw;
+  margin-right: 10vw;
+	color: #858585;
+}
+.list_item .bottom-ms image{
+width: 4vw;
+height: 4vw;
+margin-right: 1vw;
+}

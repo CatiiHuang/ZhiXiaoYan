@@ -1,0 +1,21 @@
+<view class="time">考研目标时间：<text>{{mb_time}}</text><view class="btn" hover-class="btn-down" hover-stay-time="80" bindtap="choose_time">重新选择</view></view>
+<view class="top_box">
+  <view class="card">
+   <text class="btn" hover-class="btn-down" hover-stay-time="80" bindtap="choose_major">更换专业</text>
+    <view>我的目标专业</view>
+    <view>{{mb_major}}</view>
+  </view>
+</view>
+<view class="compare_box">
+  <view class="com_card">
+    <view class="l_title">我的目标学校</view>
+    <view class="school_item">
+        <view class="img" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/module/add_school.png')">
+          <image src="{{mb_school_src}}"></image>
+        </view>
+        <text>{{mb_school}}</text>
+    </view>
+
+  </view>
+  <view hover-class="btn-down" hover-stay-time="80" class="qr_btn" bindtap="choose_school">选择学校</view>
+</view>

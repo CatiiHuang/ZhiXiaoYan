@@ -1,0 +1,26 @@
+<view class="top">
+<view class="tab_box">
+  <view wx:for="{{['政治','英语','数学','专业课']}}"  wx:key="key" bindtap="change_tab" data-index="{{index}}" class="{{index==cur_id?'clicked':''}}" >
+    {{item}}
+    <view wx:if="{{index==cur_id}}" class="item_border"></view>
+  </view>
+</view>
+</view>
+<view style="height:12vw"></view>
+<view class="choose">
+ <text >研考目标：</text>
+  <view>{{mb_time}}</view>
+  <view>{{mb_school}}</view>
+  <view>{{mb_major}}</view>
+</view>
+<view class="cont_box">
+    <navigator class="list_item" wx:for="{{book_list}}" wx:key="index" url="book_xx?id={{item.id}}">
+      <view class="book_title">{{item.zlm}}</view>
+      <view class="money">免费</view>
+      <view class="bottom-ms">
+        <text>{{item.xzcs}}次下载</text>
+        <image  wx:for="{{item.xx}}" wx:key="index" src="/images/index/star.png"></image>
+      </view>
+    </navigator>
+</view>
+<i-toast id="toast" />

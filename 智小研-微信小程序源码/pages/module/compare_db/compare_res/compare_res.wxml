@@ -1,0 +1,99 @@
+<view class="top_box"> 
+    <view>{{major}}</view>
+</view>
+<view class="tab_box">
+  <view  wx:for='{{["院校实力","分数线","考试科目"]}}' data-index="{{index}}" bindtap="change_tab" class="{{index==cur_id?'clicked':''}}" wx:key="1">
+  {{item}}
+  <text wx:if="{{index==cur_id}}"></text>
+  </view>
+</view>
+
+<view class="cont_box">
+  <swiper current="{{cur_id}}" bindchange="swiper_change" style="height:92vw;">
+    <swiper-item>
+      <view class="table">
+          <view class="tr">
+              <view class="td"></view>
+              <view class="td th">{{school1}}</view>
+              <view class="td th">{{school2}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">所在地区</view>
+              <view class="td th">{{obj1.dq}}</view>
+              <view class="td th">{{obj2.dq}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">院系排名</view>
+              <view class="td">{{obj1.pm}}</view>
+              <view class="td">{{obj2.pm}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">自主命题</view>
+              <view class="td">{{obj1.zzmt==1?"是":"否"}}</view>
+              <view class="td">{{obj2.zzmt==1?"是":"否"}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">专业排名</view>
+              <view class="td">{{obj1.zypm}}</view>
+              <view class="td">{{obj2.zypm}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">是否985</view>
+              <view class="td">{{obj1.sf985}}</view>
+              <view class="td">{{obj2.sf985}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">是否211</view>
+              <view class="td">{{obj1.sf211}}</view>
+              <view class="td">{{obj2.sf211}}</view>
+          </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+        <view class="table">
+          <view class="tr fsx">
+              <view class="td"></view>
+              <view class="td th">{{school1}}</view>
+              <view class="td th">{{school2}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">18分数线</view>
+              <view class="td">{{obj1.zf[0]}} 专业{{obj1.de[0]}}</view>
+              <view class="td">{{obj2.zf[0]}} 专业{{obj2.de[0]}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">17分数线</view>
+              <view class="td">{{obj1.zf[1]}} 专业{{obj1.de[1]}}</view>
+              <view class="td">{{obj2.zf[1]}} 专业{{obj2.de[1]}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">16分数线</view>
+              <view class="td">{{obj1.zf[2]}} 专业{{obj1.de[2]}}</view>
+              <view class="td">{{obj2.zf[2]}} 专业{{obj2.de[2]}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">15分数线</view>
+              <view class="td">{{obj1.zf[3]}} 专业{{obj1.de[3]}}</view>
+              <view class="td">{{obj2.zf[3]}} 专业{{obj2.de[3]}}</view>
+          </view>
+          <view class="tr">
+              <view class="td th">14分数线</view>
+              <view class="td">{{obj1.zf[4]}} 专业{{obj1.de[4]}}</view>
+              <view class="td">{{obj2.zf[4]}} 专业{{obj2.de[4]}}</view>
+          </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+     <view class="table kskm">
+          <view class="row">
+              <view class="col">重庆邮电大学</view>
+              <view class="col">重庆大学</view>
+          </view>
+          <view class="row">
+              <view class="col"><text>{{obj1.exam}}</text></view>
+              <view class="col"><text>{{obj2.exam}}</text></view>
+          </view> 
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

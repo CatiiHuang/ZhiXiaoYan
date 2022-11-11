@@ -1,0 +1,63 @@
+<!--Component/win.wxml-->
+<view class='win {{wined?"wined" :""}}' style='width:100%;display:block'>
+<!--  --><!--  --><!--  --><!--  -->
+<view class="djs_top_box">
+  <view class="djs_box" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/home/djs.png')">
+   <view>{{mb_day}}<text>天</text></view>
+  </view>
+  <image src="/images/home/jia.png" bindtap="add_item"></image>
+</view>
+
+<view class="cont_box">
+  <view class="cont_item" wx:for="{{day_list}}" wx:key="{{index}}">
+     <image src="/images/home/jian.png" bindtap="del_item" data-index="{{index}}"></image>
+     <view>{{item.text}}</view>
+     <view>{{item.time}} <text>({{item.hours}}h)</text> </view>
+  </view>
+  
+</view>
+<form bindsubmit="formSubmit">
+<view class='toast-box' wx:if="{{add}}">
+        <view class='toastbg'></view>
+        <view class='showToast'>
+            <view class='toast-title'>
+                <text>添加计划</text>
+            </view>
+            <view class='toast-main'>
+                <view class='toast-input'>
+                    <input name="text" placeholder='请输入安排内容' class="inp"></input>
+                </view>
+            </view>
+             <view class='toast-main2'>
+                <view class='toast-input2'>
+                    <input placeholder='开始时间' disabled='true' bindtap="chose_time" name="start_time" data-type="start" value="{{start_time}}" class="inp2"></input>
+                    <input placeholder='结束时间'disabled='true' bindtap="chose_time" name="end_time" data-type="end" value="{{end_time}}" class="inp2"></input>
+                </view>
+            </view>
+            <view class='toast-button'>
+                <view class='button1'>
+                    <button hover-class="bg" bindtap="cancel">取消</button>
+                </view>
+                <view class='button2'>
+                    <button hover-class="bg" form-type="submit">确定</button>
+                </view>
+            </view>
+        </view>
+</view>
+</form>
+
+
+<view wx:if="{{list}}"   class="list_item">
+<i-button bind:click="no" size="small" inline="true"i-class="btns" >取消</i-button> <i-button size="small" bind:click="yes" inline="true">确定</i-button>
+</view>
+<view  wx:if="{{list}}" class="list">
+  <picker-view indicator-style="height: 40px;" style="width: 100%;text-algin:center;height: 32vh;"  bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{days}}" wx:key="{{index}}"  style="line-height: 40px;text-align: center">{{item}} 点</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+<i-toast id="toast" />
+<!--  --><!--  --><!--  --><!--  -->
+</view>
+<image class='plus'  animation="{{animationData}}" bindtap='xz'  src='{{plus}}'></image>

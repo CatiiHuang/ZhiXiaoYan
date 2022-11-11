@@ -1,0 +1,126 @@
+/* pages/home/home.wxss */
+.top_box .djs{
+ height: 100%;
+ padding-top: 10rpx;
+ position: relative;
+ background-position:50vw 12vw;
+ background-repeat: no-repeat;
+ background-size: 38vw ;
+ background-color: #ffe346;
+}
+.top_box .djs .djs_box{
+  margin-left: 9vw;
+  padding-top: 10vw;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 37vw;
+	height: 33vw;
+  font-size: 8vw;
+}
+.top_box .djs .djs_box text{
+ display: block;
+ margin: 0 auto;
+ border: 4rpx solid black;
+ background-color: #ffe346;
+ border-radius: 1vw;
+ width: 20vw;
+ font-size: 2vw;
+ line-height: 4vw;
+ text-align: center;
+ letter-spacing: 2rpx;
+	height: 4vw;
+}
+.top_box .jrdk{
+  width: 19vw;
+	height: 8vw;
+  position: absolute;
+  right: 4vw;
+    bottom: 9vw;
+	background-color: #ffffff;
+	box-shadow: 0vw 0vw 4vw 0vw 
+		rgba(177, 151, 0, 0.33);
+	border-radius: 2vw;
+	color: #2d2d2d;
+  font-size: 4vw;
+  text-align: center;
+  line-height: 8vw;
+}
+.swiper image{
+  width: 100%;
+  height: 100%;
+}
+/*center*/
+.center_box{
+  padding: 0 8vw 5.2vw 8vw;
+}
+.bottom_box{
+  padding: 0 8vw;
+}
+.c_title text{
+  width: 1.5vw;
+  display: inline-block;
+	height: 5vw;
+  vertical-align: top;
+	background-color: #ffe346;
+	border-radius: 1vw;
+  margin-right: 16rpx;
+}
+.c_title{
+  margin-top:5vw; 
+  font-size: 4.2vw;
+	line-height: 4.8vw;
+	color: #444444;
+}
+.center_box .card{
+  margin-top: 2.5vw;
+  padding: 6.2vw 0 5.5vw 0;
+  background-color: #ffffff;
+	box-shadow: 0.1vw 0.2vw 3.8vw 0.5vw 
+		rgba(166, 166, 166, 0.33);
+	border-radius: 1.9vw;
+  display: flex;
+  justify-content: space-around;
+}
+.c_text{
+  letter-spacing: 2rpx;
+}
+.center_box .card .c_icon{
+  width: 12vw;
+  text-align: center;
+  font-size: 2.7vw;
+	letter-spacing: -0.1vw;
+	color: #2b2b2b;
+}
+.center_box .card .c_icon image{
+  width: 8.7vw;
+	height: 8.7vw;
+  margin-bottom: 2rpx;
+  
+}
+/*bottom*/
+.bottom_box .b_msg{
+  padding: 2.4vw 0;
+  border-bottom:1px solid #bfbfbf; 
+}
+.nav:last-of-type .b_msg{
+  border-bottom:none; 
+}
+.bottom_box .b_msg .b_title{
+  font-size: 3.2vw;
+	color: #2b2b2b;
+  margin-bottom: 1vw;
+}
+.bottom_box .content{
+  line-height: 3vw;
+	color: #2b2b2b;
+  font-size: 2.2vw;
+}
+.bottom_box .text{
+  margin-top: 4rpx;
+	font-size: 1.6vw;
+  display: block;
+	color: #2b2b2b;
+}

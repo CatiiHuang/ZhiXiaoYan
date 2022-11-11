@@ -1,0 +1,145 @@
+/* pages/module/school_msg/schppl_msg_xx.wxss */
+.top_box{
+  padding-top: 8vw;
+  background-position-y:-5vw; 
+  background-repeat:no-repeat;
+  background-size: 100vw 45vw;
+  text-align: center;
+}
+.top_box .name_box{
+  margin: 0 auto;
+  padding: 0 6vw;
+  box-shadow: 0vw 0vw 2vw 0vw 
+		rgba(166, 141, 0, 0.33);
+	border-radius: 10vw;
+  text-align: center;
+  padding-top: 2vw;
+  background-color: #ffe346;
+  padding-bottom: 3vw;
+  display: inline-block
+}
+.name_box view:first-of-type{
+  font-size: 7vw;
+	color: #712d00;
+}
+.name_box view:last-of-type{
+  margin-top: 0.5vw;
+  font-size: 2.5vw;
+	color: #712d00;
+}
+
+.tab_box{
+  display: flex;
+  justify-content: space-around;
+    height: 20vw;
+}
+.btn{
+  width: 12vw;
+	height: 12vw;
+  line-height: 12vw;
+  text-align: center;
+	background-color: #d15fbf;
+	box-shadow: 5px 8px 6px 0px 
+		rgba(107, 0, 114, 0.15);
+    border-radius: 50%;
+    font-size: 2.2vw;
+	color: #ffffff;
+}
+.btn:nth-of-type(2),.btn:nth-of-type(4){
+  margin-top: 5vw;
+}
+.btn:nth-of-type(3){
+  margin-top: 6vw;
+}
+.act{
+  background-color: #a81c92;
+}
+.center_box{
+  width: 90vw;
+  margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0vw 0vw 4vw 0vw 
+		rgba(166, 166, 166, 0.33);
+	border-radius: 2vw;
+  padding-bottom: 3vw;
+}
+page{
+  background-color: #f6f6f6;
+  padding-bottom:3vw; 
+}
+.Charts-item{
+ 
+  width: 82vw;
+	margin: 0 auto;
+}
+.canvas{
+  width:100%;
+	height: 52vw;
+}
+.Charts_title{
+  font-size: 3.5vw;
+  height: 7vw;
+  margin-bottom: 2vw;
+	line-height: 7vw;
+	color: #a81c92;
+  border-bottom: 2px solid #d15fbf;
+}
+.Charts_title text{
+  font-size: 2vw;
+  vertical-align: bottom;
+ 
+}
+
+.kskm view .wid{
+   display: inline-block;
+  height: 4vw!;
+  border: none !important;
+  width: 14vw !important;
+  line-height: 4vw;
+  text-align: justify;
+    text-align-last:justify;
+  border-radius: 0!important;
+  font-size: 4vw;
+}
+.kskm{
+  padding-bottom: 10vw;
+}
+.kskm .title{
+color: #a81c92;
+font-size: 5vw;
+font-weight: 500;
+text-align: center;
+margin: 5vw 0;
+display: block;
+}
+.kskm view{
+  border-bottom: 1px solid black;
+  font-size: 4vw;
+  width: 76vw;
+  padding: 2.5vw 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 3vw;
+}
+.zbbz view{
+  font-size: 2.8vw;
+  width: 80vw;
+  overflow: hidden;
+
+}
+.kskm view text{
+  display: inline-block;
+  height: 4.5vw;
+  border: 1px solid #000;
+  width: 4.5vw;
+  line-height: 4.5vw;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 4vw;
+}
+.ms1{
+  display: block;
+  font-size: 3.4vw;
+  width: 76vw;
+  margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/register/register",
+    "pages/module/yuceba/yuce_res/yuce_res",
+    "pages/login/login",
+    "pages/module/major_cx/major_msg/major_msg",
+    "pages/module/school_cx/school_msg/school_msg_xx",
+    "pages/module/school_cx/school_msg/school_msg",
+    "pages/school_search/search_page/search_page",
+    "pages/school_search/school_list/index",
+    "pages/module/compare_db/compare_res/compare_res",
+    "pages/major_search/major_list/index",
+    "pages/major_search/search_page/search_page",
+    "pages/my/my_target",
+    "pages/module/compare_db/compare/compare",
+    "pages/module/material_ba/book_list/book_list",
+    "pages/module/stu_ba/book_list/book_list",
+    "pages/my/my",
+    "pages/module/yuceba/yuce_search/yuce_search",
+    "pages/module/major_cx/search_page/search_page",
+    "pages/module/major_cx/major_list/index",
+    "pages/module/school_cx/search_page/search_page",
+    "pages/module/school_cx/school_list/index",
+    "pages/module/stu_ba/book_list/book_xx",
+    "pages/module/material_ba/book_list/book_xx",
+    "pages/module/school_cx/school_msg/zsjz/zsjz",
+    "pages/home/yx_msg",
+    "pages/show_msg/show_msg",
+    "pages/my/my_msg"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffe346",
+    "navigationBarTitleText": "智小研",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

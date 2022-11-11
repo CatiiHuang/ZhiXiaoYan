@@ -1,0 +1,48 @@
+/* pages/module/school_cx/school_msg/zsjz/zsjz.wxss */
+.top_box{
+  padding: 5vw 8vw;
+  background-color: #ffa42d;
+}
+.top_box .top_title{
+	font-size: 6vw;
+	line-height: 9vw;
+	color: #1f1f1e;
+  position: relative;
+  margin-bottom: 5vw;
+}
+.top_title text{
+  display: inline-block;
+  width: 16vw;
+	height: 1vw;
+	background-color: #eb6100;
+  position: absolute;
+  bottom: -1.5vw;
+  left: 0;
+}
+.ms_box{
+  overflow: hidden;
+}
+.ms_box .time{
+  font-size: 4vw;
+  display: inline-block;
+  color: #1f1f1e;
+  vertical-align: text-bottom;
+}
+.ms_box .place{
+  float: right;
+  vertical-align: text-bottom;
+}
+.cont_box{
+  margin-top: 5vw;
+  padding: 0 8vw;
+}
+.cont_box .h1{
+  font-size: 5vw;
+  margin-bottom: 8vw;
+}
+.cont_box view{
+  font-size: 4vw;
+  color: #1f1f1e;
+  line-height: 5vw;
+  margin-bottom:7vw;
+}

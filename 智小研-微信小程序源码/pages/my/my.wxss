@@ -1,0 +1,80 @@
+/* pages/my/my.wxss */
+.top_box{
+  background-color: #ffe346;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  font-size: 40rpx;
+  letter-spacing:2rpx;
+  padding-bottom: 5vw;
+}
+.top_box .p_icon{
+  width: 3vw;
+	height: 3vw;
+  position: absolute;
+  top: 2vw;
+  right: 6vw;
+}
+.img{
+    width: 20vw;
+  	height: 20vw;
+    text-align: center;
+     overflow: hidden;
+     border-radius: 50%;
+     margin: 0 auto;
+     border: 4px solid rgba(204, 204, 204, 0.5);
+     margin-bottom: 1vw; 
+}
+.user{
+  font-size: 4vw;
+  font-weight: 500;
+	color: #2d2d2d;
+  text-align: center;
+}
+.cont_box{
+  box-sizing: border-box;
+  margin: 5vw 8vw;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+.top view{
+  padding-top: 2.5vw;
+  padding-bottom: 1vw;
+  text-align: center;
+	font-size: 7vw;
+	color: #444444;
+}
+.top view text{
+  margin-top: 1.5vw;
+  display: block;
+  font-size: 3vw;
+	line-height: 3vw;
+	color: #444444;
+}
+.center .c_item{
+  font-size: 4vw;
+  padding: 3vw 0;
+  font-weight: 500;
+  box-sizing: border-box;
+	color: #444444;
+  padding-left: 1vw;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.c_item text{
+  display: inline-block;
+    vertical-align: middle;
+}
+.c_item:first-of-type{
+   border-top: 1px solid #bfbfbf;
+}
+.c_item image{
+  height: 8vw;
+  width: 8vw;
+  vertical-align: middle;
+  margin-right: 3vw;
+}
+.btn{
+  background-color: #ffe346 !important;
+}

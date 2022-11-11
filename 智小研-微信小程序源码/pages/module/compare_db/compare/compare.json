@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-toast": "../../../../dist/toast/index"
+  },
+  "navigationBarBackgroundColor": "#ffe346",
+  "navigationBarTitleText": "院校对比"
+}

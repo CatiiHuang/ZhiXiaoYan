@@ -1,0 +1,8 @@
+{
+ "usingComponents": {
+  "win": "/Component/win",
+  "i-button": "/dist/button/index",
+  "i-toast": "/dist/toast/index"
+},
+"navigationBarBackgroundColor": "#ffe346"
+}

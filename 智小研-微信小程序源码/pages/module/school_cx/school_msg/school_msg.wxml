@@ -1,0 +1,91 @@
+<image class="img" mode="widthFix" src="https://hgqlgzsl.temdu.com/assets/wx/module/school_bg.png"></image>
+<view class="cont_box">
+    <view class="name_box">
+        <view>{{school_name}}</view>
+        <view>{{school_py}}</view>
+        <text></text>
+    </view>
+</view>
+<!-- swiper tab-->
+<view class="cont_box" style="padding-top:0;">
+  <view class="tab_box">
+    <view class="tab_item {{current_id==index?'ok':''}}" wx:key="index" bindtap="change" data-index="{{index}}"  wx:for="{{tab}}">
+      {{item}}
+      <view class="{{current_id==index?'view':'none'}}"></view>
+    </view>
+  </view>
+</view>
+<!-- swiper -->
+<view class="cont_box" style="padding-top:0;">
+    <swiper bindchange="swiper_change" current="{{current_id}}" style="border-top:1px solid #bfbfbf;height:46vh;">
+      <!-- 学校介绍 -->
+        <swiper-item class="zsjz_box">
+          <scroll-view scroll-y="true" style="height:100%;">
+            <view class="zsjz_title">{{school_name}}</view>
+            <view class="zsjz_text">{{xxjj}}</view>
+          </scroll-view>
+      </swiper-item>
+      <!-- 专业目录 -->
+      <swiper-item>
+      <scroll-view scroll-y="true" style="height:100%;">
+        <view class="caption-wrap">
+          <i-collapse name="{{name}}">
+            <i-collapse-item i-class="big_major" wx:for="{{zy_ml}}" wx:key="index" title="{{item.name}}" name="{{index==0?'':'name1'}}">
+            <view slot="content">
+                <view class="majors" wx:for="{{item.mj}}"  wx:for-item="items" wx:key="index">
+                  <navigator url="./school_msg_xx?major={{items}}&school={{school_name}}&xy={{item.name}}">
+                    <text class="orange" wx:if="{{!items.day}}">全日制</text><text wx:else>非全日制</text><text>{{items}}</text>
+                  </navigator>
+                </view>
+            </view>
+            </i-collapse-item>
+          </i-collapse>
+        </view>
+        </scroll-view>
+      </swiper-item>
+      <!-- 分数线 -->
+      <swiper-item class="zsjz_box">
+        <scroll-view scroll-y="true" style="height:100%;">
+          <view class="row th">
+            <view>类型</view>
+            <view>学科门类</view>
+            <view>总分</view>
+            <view>专业课</view>
+          </view>
+          <view  wx:for="{{fsx_list}}" wx:key="1" class="row td">
+            <view>{{item.xkml}}</view>
+            <view>{{item.zy}}</view>
+            <view>{{item.zf}}</view>
+            <view>{{item.de100}}</view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+       <!-- 招生简章 -->
+      <swiper-item class="zsjz_box">
+         <scroll-view scroll-y="true" style="height:100%;">
+         <view class="zsjz_title">{{zsjz.title}}</view>
+            <view class="zsjz_text">{{zsjz.nr}}</view>
+          </scroll-view>
+      </swiper-item>
+      <!-- 报录比-->
+      <swiper-item class="zsjz_box">
+        <scroll-view scroll-y="true" style="height:100%;">
+          <view class="blb row th">
+            <view>院系</view>
+            <view>专业</view>
+            <view>报考人数</view>
+            <view>录取人数</view>
+            <view>报录比</view>
+          </view>
+          <view  wx:for="{{blb_list}}" wx:key="1" class="blb row td">
+            <view>{{item.yx}}</view>
+            <view>{{item.zymc}}</view>
+            <view>{{item.bkrs}}</view>
+            <view>{{item.lqrs}}</view>
+            <view>{{item.blb}}</view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+        
+    </swiper>
+</view>

@@ -1,0 +1,25 @@
+<view class="top_box" style="background-image:url('https://hgqlgzsl.temdu.com/assets/wx/module/yuce_resbg.png')">
+  <view class="major">
+    <view>{{major}}</view>
+    
+  </view>
+</view>
+<view class="cont_title">
+    预测院校排名
+    <view></view>
+  </view>
+<view class="cont_box">
+  <view class="row">
+  <view class="th">院校名称</view>
+  <view class="th">院校排名</view>
+  <view class="th">院校推荐率</view>
+  <view class="th">院校报录比</view>
+  </view>
+  
+  <view class="row" wx:for="{{list}}">
+    <view>{{item.name}}</view>
+    <view>{{item.pm}}</view>
+    <view>{{item.gxl}}</view>
+    <view>{{item.blb}}</view>
+  </view>
+</view>

@@ -1,0 +1,67 @@
+<view class="top_box">
+  
+  <view style="height:8vw"><image  class="p_icon" src="/images/home/person.png"></image></view>
+  <view class="img"><open-data type="userAvatarUrl"></open-data></view>
+  <view class="user"><open-data style="display:inline-block;" type="userNickName"></open-data> 你好!</view>
+</view>
+<view class="cont_box">
+  <view class="top">
+      <view>
+          30
+          <text>完成打卡天数</text>
+      </view>
+      <view style="height:15vw;width:1.2vw; background-color: #ffe346;border-radius: 1vw;"></view>
+      <view>
+          20
+          <text>完成学习计划天数</text>
+      </view>
+      <view style="height:15vw;width:1vw; background-color: #ffe346;border-radius: 1vw;"></view>
+       <view>
+          10
+          <text>使用智小研</text>
+      </view>
+  </view>
+  <view class="center" style="margin-top:4vw;">
+    <view class="c_item" bindtap="go_url" data-url="my_target">
+      <image src="/images/home/target.png"></image>
+       <text>我的目标</text>
+    </view>
+    <view class="c_item" bindtap="go_url" data-url="my_msg">
+      <image src="/images/home/stu_plan.png"></image>
+       <text>我的信息</text>
+    </view>
+    <view class="c_item" bindtap="plus">
+      <image src="/images/home/stu_plan.png"></image>
+       <text>每日学习计划</text>
+    </view>
+    <view class="c_item" bindtap="more" >
+      <image src="/images/home/eng.png"></image>
+       <text>单词周周记</text>
+    </view>
+    <view class="c_item" bindtap="more">
+      <image src="/images/home/ban.png"></image>
+       <text>手机禁用</text>
+    </view>
+     <view class="c_item" bindtap="more">
+      <image src="/images/home/relax.png"></image>
+       <text>听听音乐吧</text>
+    </view>
+  </view>
+</view>
+<i-button bind:click="login_out" i-class="btn" type="ghost">退出登录</i-button>
+
+<view style="height: 13vw;margin-top:2vw;"></view>
+
+
+<i-toast id="toast" />
+
+<!--  -->
+<win id="win"></win>
+<import src="../../template/template.wxml" />
+<template is="tabbar" data="{{tabbar}}"/>
+
+
+
+
+
+

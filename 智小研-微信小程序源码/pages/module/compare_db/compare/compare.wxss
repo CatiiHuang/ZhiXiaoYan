@@ -1,0 +1,121 @@
+/* pages/module/compare_db/compage/compare.wxss */
+.top_box{
+  border-top: 1px solid #ebcf34;
+  height: 38vw;
+  background-color: #ffe346;
+  position: relative;
+}
+.top_box .btn{
+  margin-top: 1vw;
+  margin-right:8vw;
+  float: right; 
+  width: 19vw;
+	height: 8vw;
+	background-color: #ffe346;
+	box-shadow: 0vw 0vw 2vw 0vw 
+		rgba(166, 141, 0, 0.33);
+	border-radius: 4vw;
+  font-size: 3vw;
+  text-align: center;
+	line-height: 8vw;
+	color: #712d00;
+}
+.top_box .card{
+  position: absolute;
+  width: 84vw;
+	height: 32vw;
+  left: 50%;
+  margin-left: -42vw;
+  top: 12vw;
+  text-align: center;
+	background-color: #ffffff;
+	box-shadow: 0vw 0vw 2vw 0vw 
+		rgba(153, 153, 153, 0.33);
+	border-radius: 4vw;
+ 
+}
+.top_box .card view:first-of-type{
+  font-size: 3vw;
+  text-align: left;
+  padding: 3vw 4vw;
+	color: #2b2b2b;
+ 
+  margin-bottom: 3vw;
+}
+.top_box .card view:last-of-type{
+ font-size: 5vw;
+ 	color: #2b2b2b;
+    font-weight: 600;
+  letter-spacing: 2rpx;
+   margin-left: -4vw;
+}
+.compare_box{
+  margin-top: 9vw;
+}
+.com_card{
+  width: 84vw;
+  margin: 0 auto;
+  background-color: #ffffff;
+	box-shadow: 0vw 0vw 2vw 0vw 
+		rgba(153, 153, 153, 0.33);
+	border-radius: 4vw;
+}
+.com_card .l_title{
+  text-align: left;
+   padding: 3vw 4vw;
+   margin-bottom: 2vw;
+   font-size: 3vw;
+	color: #2b2b2b;
+}
+.school_item{
+  width: 42vw;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 15vw;
+
+    position: relative;
+}
+.school_item .img{
+  width: 24vw;
+  padding: 0;
+
+  margin: 3vw auto;
+  height: 24vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.img image{
+  width: 24vw;
+  height: 24vw;
+}
+.school_item text{
+  display: inline-block;
+  font-size: 4.2vw;
+	color: #2b2b2b;
+  letter-spacing: 1px;
+}
+.del{
+  position: absolute;
+  z-index: 999;
+  right: 12vw;
+  top: 4vw;
+  width: 5vw !important;
+  height: 5vw !important;
+}
+.qr_btn{
+  width: 61vw;
+	height: 8vw;
+	background-color: #ffe346;
+	box-shadow: 0vw 0vw 2vw 0vw 
+		rgba(166, 141, 0, 0.33);
+	border-radius: 4vw;
+  font-size: 3.5vw;
+  line-height: 8vw;
+  margin: 0 auto;
+  text-align: center;
+  color: #712d00;
+  letter-spacing: 2px;
+  margin-top:7vw;
+  }

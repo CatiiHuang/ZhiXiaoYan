@@ -1,0 +1,13 @@
+<view class="top_box">
+    <view>
+      <image src="/images/index/search.png"></image>
+      <input placeholder-class="placeholder" bindconfirm="search" focus bindblur="search" placeholder="请输入学校名称"></input>
+    </view>
+</view>
+<view style="height:1vw;"></view>
+<scroll-view scroll-y="true" style="height:90vh" >
+  <view class="list_box" wx:for="{{list}}" bindtap="go_school" data-school="{{item.name}}">
+    {{item.name}}
+  </view>
+</scroll-view>
+<i-toast id="toast" />

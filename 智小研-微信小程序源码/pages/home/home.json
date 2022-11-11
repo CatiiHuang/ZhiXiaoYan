@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "win": "/Component/win"
+  },
+  "navigationBarBackgroundColor": "#ffe346"
+}

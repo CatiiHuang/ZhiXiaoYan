@@ -1,0 +1,12 @@
+<view class="top_box">
+    <view>
+      <image src="/images/index/search.png"></image>
+      <input placeholder-class="placeholder" placeholder="请输入专业名称" focus bindblur="search_list" bindconfirm="search_list"></input>
+    </view>
+</view>
+<view style="height:1vw;"></view>
+<scroll-view scroll-y="true" style="height:90vh" >
+  <view class="list_box" wx:for="{{list}}" data-major="{{item.name}}" bindtap="go_school">
+    {{item.name}}
+  </view>
+</scroll-view>
